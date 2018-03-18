@@ -1,0 +1,11 @@
+autostart enable -n "pm2" -p "/steamhourboostv2/pm2" -c "npm start"
+autostart check -n "pm2"
+autostart disable -n "pm2"
+
+autostart enable -n "pm2"
+
+ทดสอบด้วย
+cd steamhourboostv2
+pm2 restart all
+npm run pm2
+*ห้าม npm strat ใช้กับ pm2 ไม่ได้

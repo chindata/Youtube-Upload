@@ -1,0 +1,113 @@
+tar xvzf  Python-3.6.4.tgz
+sudo apt-get update
+sudo python setup.py install
+tar xvzf  youtube-upload-0.7.3.tgz
+cd youtube-upload-0.7.3
+sudo python setup.py install
+
+$ youtube-upload --email=myemail@gmail.com --password=mypassword \
+                 --title="A.S. Mutter" --description="A.S. Mutter plays Beethoven" \
+                 --category=Music --keywords="mutter, beethoven" anne_sophie_mutter.flv
+www.youtube.com/watch?v=pxzZ-fYjeYs
+
+$youtube-upload --email=vc@gmail.com --password=****** --title="Myvideo" --description="$(my video )" --category=Music --keyword="MYvideo" sample.mp4
+
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+
+git clone https://github.com/google/google-api-python-client.git
+cd google-api-python-client/
+sudo python setup.py install
+sudo pip install --upgrade google-api-python-client
+clear
+cd /
+cd youtube-upload-0.7.3
+git clone https://github.com/tokland/youtube-upload.git
+cd youtube-upload
+sudo python setup.py install
+clear
+cd youtube-upload 
+youtube-upload --help
+
+cd ../
+git clone https://github.com/rg3/youtube-dl.git
+ark account git.
+
+cd youtube-dl
+ls
+sudo python setup.py install
+clear
+which youtub-dl
+youtube-dl --help
+clear
+cd ../ ../youtube
+
+.........................................................................................
+ลอง ดูด คลิป คนอื่น ด้วย Youtube-dl
+
+mkdir chin_video
+cd chin_video
+clear
+youtube-dl -f mp4 --max-quality best -o '%(tittle)s_%(id)s.%(ext)s' https://www.youtube.com/watch?v=Vk6RgYvCESg
+youtube-dl -f mp4 -o '%(title)s_%(id)s.%(ext)s' https://www.youtube.com/watch?v=qvD0RYAwC7M&list=PLMkdtxf545tirsYgi-t4PFJGaKAXngR7y
+youtube-dl -f mp4 -o '%(title)s' https://www.youtube.com/watch?v=qgmr5vubOYI
+**** youtube-dl -f mp4 -o '%(title)s.%(ext)s' 
+
+...............................................................................................
+อัพโหลด
+youtube-upload --client-secrets=client_secrets.json --location="=" --privacy=private --title="video ของ 12 Hours อัพจาก Server Linux" "NA_Vk6RgYvCESg.mp4"
+youtube-upload --client-secrets=client_secrets.json --location="=" --privacy=private --title="video ของ 12 Hours อัพจาก Server Linux" "NA_qvD0RYAwC7M.mp4" 
+youtube-upload --client-secrets=client_secrets.json --location="=" --privacy=public --title="video ของ 12 Hours อัพจาก Server Linux" "NA_qvD0RYAwC7M.mp4" 
+
+$ youtube-upload --email=myemail@gmail.com --password=mypassword \
+                 --title="A.S. Mutter" --description="A.S. Mutter plays Beethoven" \
+                 --category=Music --keywords="mutter, beethoven" anne_sophie_mutter.flv
+www.youtube.com/watch?v=pxzZ-fYjeYs
+
+$youtube-upload --email=vc@gmail.com --password=****** --title="Myvideo" --description="$(my video )" --category=Music --keyword="MYvideo" sample.mp4
+
+youtube-upload --client-secerts=client_secrets.json  --location="=" --title=filename --privacy=public 
+--description="กด ติดตาม ที่ https://www.youtube.com/channel/UC-MAZgMnjBrbHX5ujPSH0xg?sub_confirmation=1" 
+category=Music --tags="12 Hours หนัง movie game dead by daylight หนังผี น่ากลัว สยองขวัญ หนังดี ดอทคอม" --playlist "หนังน่ากลัว _ สยองขวัญ" [พากย์ไทย] เมื่อจ้าง Dr Strange มาเลี้ยงเด็ก.mp4
+
+youtube-upload --client-secerts=client_secrets.json  --location="=" --title="video ของ 12 Hours อัพจาก Server Linux" --privacy=public 
+--description="กด ติดตาม ที่ https://www.youtube.com/channel/UC-MAZgMnjBrbHX5ujPSH0xg?sub_confirmation=1" 
+"[พากย์ไทย] เมื่อจ้าง Dr Strange มาเลี้ยงเด็ก.mp4"
+
+*** ห้าม \
+
+
+youtube-upload \
+  --title="A.S. Mutter" 
+  --description="A.S. Mutter plays Beethoven" \
+  --category=Music \
+  --tags="mutter, beethoven" \
+  --recording-date="2011-03-10T15:32:17.0Z" \
+  --default-language="en" \
+  --default-audio-language="en" \
+  --client-secrets=my_client_secrets.json \
+  --credentials-file=my_credentials.json \
+  --playlist "My favorite music" \
+  anne_sophie_mutter.flv
+tx2Zb-145Yz
+
+--privacy (public | unlisted | private)  
+--publish-at (YYYY-MM-DDThh:mm:ss.sZ)  
+--location (latitude=VAL,longitude=VAL[,altitude=VAL])  
+--thumbnail (string)  
+
+***ถ้า Public อัพ ผ่านเฉย เร็วด้วย อาจจะเพราะว่า ไม่ต้องผ่าน https:// แต่ผ่าน API และใช้ เนตของ Server ZCOM ชื่อ Clip เป็น ภาษาไทย Support ทุกอย่าง
+
+
+ OAuth client
+Here is your client ID
+ 312177693577-l3ur8m8o5ap02jp2tpdqdhs0q3019tqq.apps.googleusercontent.com 
+Here is your client secret 
+ MB7zbVxhQ8RoTCc7R7SLCcAR 
+
+nano client_secrets.json
+copy plase
+ 312177693577-e5g5mripn1qj9o3p5hjg3ttu4736q0lg.apps.googleusercontent.com 
+ 4X7d4tYejY-karMLmbILS5B_ 
+
+ls -la
